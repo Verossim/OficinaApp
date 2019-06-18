@@ -56,7 +56,7 @@ Para abrir o aplicativo em seu emulador:
 
 1. Crie um projeto React Native
 2. Instale as dependências
-3. Cole a pasta [src](oficinaapp/src) dentro da pasta principal do projeto
+3. Cole a pasta **src** dentro da pasta principal do projeto
 4. No _index.js_ da pasta **principal**, altere a importação do App para a pasta src.
 ```
 import App from './src';
