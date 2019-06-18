@@ -14,7 +14,7 @@ Projeto de app que recebe informações de orçamento da api e repassa para o us
 Criando o Projeto React Native:
 
 ```
-react-native init
+react-native init (nome-do-projeto)
 ```
 
 Iniciando o Projeto:
@@ -42,10 +42,23 @@ yarn add react-navigation
 Para o React Navigation funcionar pode ser necessário instalar uma dependência chamada react-native-gesture-handler
 ```
 yarn add react-native-gesture-handler
-# ou com npm
+  # ou com npm
 # npm install --save react-native-gesture-handler
 ```
 Agora é só linkar a depedência:
 ```
 react-native link react-native-gesture-handler
 ```
+
+## Rodando o App
+
+Para abrir o aplicativo em seu emulador:
+
+1. Crie um projeto React Native
+2. Instale as dependências
+3. Cole a pasta [src](oficinaapp/src) dentro da pasta principal do projeto
+4. No _index.js_ da pasta **principal**, altere a importação do App para a pasta src.
+```
+import App from './src';
+```
+5. Abra o projeto.
