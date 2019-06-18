@@ -1,0 +1,3 @@
+rootProject.name = 'OfinicaApp'
+
+include ':app'
